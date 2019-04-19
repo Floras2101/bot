@@ -1,9 +1,8 @@
 {
     "name": "Bot Andrzej",
-    "version": "1.0.0",
     "description": "Mój Pierwszy Bot",
+    "version": "0.0.0",
     "main": "bot.js",
-    "author": "KacpeR",
     "scripts": {
     "start": "node bot.js"
     },
