@@ -19,7 +19,7 @@ client.on('ready', () => {
 // Create an event listener for messages
 client.on('message', message => {
   // If the message is "what is my avatar"
-  if (message.content === 'what is my avatar') {
+  if (message.content === 'mój avatar') {
     // Send the user's avatar URL
     message.reply(message.author.avatarURL);
   }
