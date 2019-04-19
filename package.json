@@ -3,10 +3,8 @@
  "description": "PAL GUMĘ",
  "version": "0.0.0",
  "main": "bot.js",
+ "discord.js": "12.1.0"
  "scripts": {
    "start": "node bot.js"
- }
-  "dependencies": {
-  "discord.js": "12.1.0"
  }
 }
