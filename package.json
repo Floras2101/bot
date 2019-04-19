@@ -6,7 +6,10 @@
  "scripts": {
    "start": "node bot.js"
  }
- "dependencies" : {
+ "dependencies": {
   "discord.js": "11.1.0"
+  "youtube-node": "1.2.x",
+  "query-string": "3.*",
+  "request": ">=2.58.0"
  }
 }
