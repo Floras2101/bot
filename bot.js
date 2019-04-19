@@ -1,5 +1,5 @@
 /**
- * Send a user a link to their avatar
+ * A ping pong bot, whenever you send "ping", it replies "pong".
  */
 
 // Import the discord.js module
@@ -18,12 +18,12 @@ client.on('ready', () => {
 
 // Create an event listener for messages
 client.on('message', message => {
-  // If the message is "what is my avatar"
-  if (message.content === 'what is my avatar') {
-    // Send the user's avatar URL
-    message.reply(message.author.avatarURL);
+  // If the message is "ping"
+  if (message.content === 'ping') {
+    // Send "pong" to the same channel
+    message.channel.send('pong');
   }
 });
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NTY4Nzg1OTA1MDA3OTg0NjQx.XLpJAw.aBGtTd2t_nE6SGQafZ2pMFHvD7s');
+client.login('your token here');
