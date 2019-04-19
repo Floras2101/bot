@@ -4,5 +4,7 @@
   "description": "Elo Elo",
   "main": "bot.js",
   "author": "KacpeR",
-  "dependencies": {}
+  "dependencies": {
+   "discord.js": "11.1.0"
+  }
 }
