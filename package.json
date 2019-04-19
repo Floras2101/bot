@@ -1,10 +1,13 @@
 {
- "name": "pokaz-bot",
- "version": "1.0.0",
- "description": "Hate 9gag links.",
+ "name": "Test",
+ "description": "PAL GUMĘ",
+ "version": "0.0.0",
  "main": "bot.js",
- "author": "KacpeR",
+ "scripts": {
+   "start": "node bot.js"
+ }
  "dependencies": {
   "discord.js": "^11.4.2"
+  "request": "2.81.0"
  }
 }
