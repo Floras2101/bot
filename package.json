@@ -1,10 +1,8 @@
 {
- "name": "Test",
- "description": "PAL GUMĘ",
- "version": "0.0.0",
- "main": "bot.js",
- "scripts": {
-   "start": "node bot.js"
- }
- "discord.js": "12.1.0"
+  "name": "Andrzej",
+  "version": "1.0.0",
+  "description": "Elo Elo",
+  "main": "bot.js",
+  "author": "KacpeR",
+  "dependencies": {}
 }
